@@ -24,7 +24,7 @@ library(ggplot2)
 library('tidyr')
 
 
-inputDir='/media/andrey/WD_4Tb/projects/NTRK_fusions_RSF_2020_05_26/TCGA/HTSeq_data/'
+inputDir=readline(prompt='Enter input directory: ')
 ntrk1_table=read_NTRK_data(paste(dir,'NTRK1/',sep=''))
 ntrk2_table=read_NTRK_data(paste(dir,'NTRK2/',sep=''))
 ntrk3_table=read_NTRK_data(paste(dir,'NTRK3/',sep=''))
