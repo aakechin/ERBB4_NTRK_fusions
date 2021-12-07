@@ -1,0 +1,12 @@
+Study;SampleID_short;SampleID_long;Cancer Type;Protein Change;FusedGene;Fusions;Annotation;Mutation Type;Copy #;COSMIC;Allele Freq (T);# Mut in Sample
+Thyroid Carcinom...;TCGA-CE-A27D-01;75a93f0e-cd41-43c6-a303-ff37e31395e9;Papillary Thyroid Cancer;ETV6-NTRK3;NTRK3;NTRK;Civic Variant Entry;Fusion;Diploid;;;6
+Thyroid Carcinom...;TCGA-DJ-A4V0-01;fffdb1d9-58d1-425c-ac12-1e1e5f443bf7;Papillary Thyroid Cancer;ETV6-NTRK3;NTRK3;NTRK;Civic Variant Entry;Fusion;Diploid;;;4
+Thyroid Carcinom...;TCGA-E8-A438-01;f12fa57b-3427-45fe-994b-602f498b68da;Papillary Thyroid Cancer;ETV6-NTRK3;NTRK3;NTRK;Civic Variant Entry;Fusion;Diploid;;;5
+Thyroid Carcinom...;TCGA-EL-A3ZN-01;1f3915cb-718c-42ae-ab0a-ce62b8664995;Papillary Thyroid Cancer;ETV6-NTRK3;NTRK3;NTRK;Civic Variant Entry;Fusion;Diploid;;;1
+Thyroid Carcinom...;TCGA-ET-A39L-01;cd73c807-a74e-46a8-9855-92de33da9b0d;Papillary Thyroid Cancer;RBPMS-NTRK3;NTRK3;NTRK;;Fusion;Diploid;;;1
+Thyroid Carcinom...;TCGA-FE-A3PD-01;39d90499-8549-4da5-b391-c421f18facf1;Papillary Thyroid Cancer;ETV6-NTRK3;NTRK3;NTRK;Civic Variant Entry;Fusion;DeepDel;;;6
+Thyroid Carcinom...;TCGA-CE-A3MD-01;16505d78-90d9-47d0-9b86-c6ef91d23aac;Papillary Thyroid Cancer;SSBP2-NTRK1;NTRK1;NTRK;;Fusion;Diploid;;;9
+Thyroid Carcinom...;TCGA-DJ-A4UP-01;256976a4-41ab-445e-ae26-c594ba1fa324;Papillary Thyroid Cancer;IRF2BP2-NTRK1;NTRK1;NTRK;;Fusion;Diploid;;;6
+Thyroid Carcinom...;TCGA-DJ-A4UQ-01;274225cf-a0f4-4635-848b-819f479001de;Papillary Thyroid Cancer;IRF2BP2-NTRK1;NTRK1;NTRK;;Fusion;Diploid;;;15
+Thyroid Carcinom...;TCGA-EM-A3AO-01;19378727-e0a6-4898-b2d0-f12241616870;Papillary Thyroid Cancer;TFG-NTRK1;NTRK1;NTRK;;Fusion;DeepDel;;;7
+Thyroid Carcinom...;TCGA-ET-A40S-01;c8d62754-1601-40c0-98ef-e5bb94306b92;Papillary Thyroid Cancer;SQSTM1-NTRK1;NTRK1;NTRK;Civic Variant Entry;Fusion;ShallowDel;;;13
