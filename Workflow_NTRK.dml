@@ -5,11 +5,11 @@
     <viewOptions/>
     <nodes>
       <node height="0" id="All keynodes annotated" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="7152" y="476">
-        <property name="parameter-expression" short-description="parameter-expression" type="String" value="data/Projects/NTRK/Data/Results/Output/All keynodes annotated"/>
+        <property name="parameter-expression" short-description="parameter-expression" type="String" value="$Input gene set/parent$/Results/Output/All keynodes annotated"/>
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="All keynodes filtered" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="7674" y="403">
-        <property name="parameter-expression" short-description="parameter-expression" type="String" value="data/Projects/NTRK/Data/Results/Output/All keynodes filtered"/>
+        <property name="parameter-expression" short-description="parameter-expression" type="String" value="$Input gene set/parent$/Results/Output/All keynodes filtered"/>
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <compartment>
@@ -261,7 +261,7 @@
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="CMA with factors" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="7684" y="1051">
-        <property name="parameter-expression" short-description="parameter-expression" type="String" value="data/Projects/NTRK/Data/Results/Output/CMA with factors"/>
+        <property name="parameter-expression" short-description="parameter-expression" type="String" value="$Input gene set/parent$/Results/Output/CMA with factors"/>
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="CMA with factors and description" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="8220" y="1194">
@@ -269,7 +269,7 @@
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="CMAWK on enhancers output" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="4537" y="440">
-        <property name="parameter-expression" short-description="parameter-expression" type="String" value="data/Projects/NTRK/Data/Results/Output/CMAWK on enhancers output"/>
+        <property name="parameter-expression" short-description="parameter-expression" type="String" value="$Input gene set/parent$/Results/Output/CMAWK on enhancers output"/>
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="CMAWKReport" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="8826" y="899">
@@ -373,7 +373,7 @@
         <property name="parameter.useFullPath" short-description="parameter.useFullPath" type="String" value="false"/>
       </compartment>
       <node height="0" id="Column subset" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="7173" y="212">
-        <property name="parameter-expression" short-description="parameter-expression" type="String" value="data/Projects/NTRK/Data/Results/Output/Column subset"/>
+        <property name="parameter-expression" short-description="parameter-expression" type="String" value="$Input gene set/parent$/Results/Output/Column subset"/>
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <compartment>
@@ -593,19 +593,19 @@
         <property name="parameter.targetType" short-description="parameter.targetType" type="String" value="Genes: Ensembl"/>
       </compartment>
       <compartment>
-        <compartmentInfo height="60" id="Convert table_1" isTitleHidden="false" kernel="stub/Convert table" kernel_type="analysis-method" shape="0" title="Convert table" width="200" x="181" y="636"/>
+        <compartmentInfo height="60" id="Convert table_1" isTitleHidden="false" kernel="stub/Convert table" kernel_type="analysis-method" shape="0" title="Convert table" width="200" x="196" y="567"/>
         <nodes>
-          <node height="0" isTitleHidden="false" kernel="stub/Convert table_1/outputTable" kernel_type="data-element-out" title="outputTable" width="0" x="363" y="673">
+          <node height="0" isTitleHidden="false" kernel="stub/Convert table_1/outputTable" kernel_type="data-element-out" title="outputTable" width="0" x="378" y="604">
             <property name="description" short-description="description" type="String" value="Output table"/>
             <property name="iconId" short-description="iconId" type="String" value="ru.biosoft.table:ru/biosoft/table/resources/table.gif"/>
             <property name="position" short-description="position" type="int" value="1"/>
           </node>
-          <node height="0" isTitleHidden="false" kernel="stub/Convert table_1/sourceTable" kernel_type="data-element-in" title="sourceTable" width="0" x="183" y="658">
+          <node height="0" isTitleHidden="false" kernel="stub/Convert table_1/sourceTable" kernel_type="data-element-in" title="sourceTable" width="0" x="198" y="589">
             <property name="description" short-description="description" type="String" value="Input table"/>
             <property name="iconId" short-description="iconId" type="String" value="ru.biosoft.table:ru/biosoft/table/resources/table.gif"/>
             <property name="position" short-description="position" type="int" value="0"/>
           </node>
-          <node height="0" isTitleHidden="false" kernel="stub/Convert table_1/unmatchedTable" kernel_type="data-element-out" title="unmatchedTable" width="0" x="363" y="643">
+          <node height="0" isTitleHidden="false" kernel="stub/Convert table_1/unmatchedTable" kernel_type="data-element-out" title="unmatchedTable" width="0" x="378" y="574">
             <property name="description" short-description="description" type="String" value="Unmatched rows"/>
             <property name="iconId" short-description="iconId" type="String" value="ru.biosoft.table:ru/biosoft/table/resources/table.gif"/>
             <property name="position" short-description="position" type="int" value="0"/>
@@ -632,27 +632,27 @@
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="Drugs PASS" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="7966" y="437">
-        <property name="parameter-expression" short-description="parameter-expression" type="String" value="data/Projects/NTRK/Data/Results/Output/Drugs PASS"/>
+        <property name="parameter-expression" short-description="parameter-expression" type="String" value="$Input gene set/parent$/Results/Output/Drugs PASS"/>
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="Drugs PASS disease active" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="8792" y="319">
-        <property name="parameter-expression" short-description="parameter-expression" type="String" value="data/Projects/NTRK/Data/Results/Output/Drugs PASS disease active"/>
+        <property name="parameter-expression" short-description="parameter-expression" type="String" value="$Input gene set/parent$/Results/Output/Drugs PASS disease active"/>
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="Drugs PASS repurposed" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="8799" y="647">
-        <property name="parameter-expression" short-description="parameter-expression" type="String" value="data/Projects/NTRK/Data/Results/Output/Drugs PASS repurposed"/>
+        <property name="parameter-expression" short-description="parameter-expression" type="String" value="$Input gene set/parent$/Results/Output/Drugs PASS repurposed"/>
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="Drugs PSD" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="8278" y="123">
-        <property name="parameter-expression" short-description="parameter-expression" type="String" value="data/Projects/NTRK/Data/Results/Output/Drugs PSD"/>
+        <property name="parameter-expression" short-description="parameter-expression" type="String" value="$Input gene set/parent$/Results/Output/Drugs PSD"/>
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="Drugs PSD disease verified" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="8791" y="68">
-        <property name="parameter-expression" short-description="parameter-expression" type="String" value="data/Projects/NTRK/Data/Results/Output/Drugs PSD disease verified"/>
+        <property name="parameter-expression" short-description="parameter-expression" type="String" value="$Input gene set/parent$/Results/Output/Drugs PSD disease verified"/>
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="Drugs PSD repurposed" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="8802" y="162">
-        <property name="parameter-expression" short-description="parameter-expression" type="String" value="data/Projects/NTRK/Data/Results/Output/Drugs PSD repurposed"/>
+        <property name="parameter-expression" short-description="parameter-expression" type="String" value="$Input gene set/parent$/Results/Output/Drugs PSD repurposed"/>
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="Fantom database" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="424" y="775">
@@ -660,7 +660,7 @@
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="Feedback Controlled Master Regulators" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="5746" y="202">
-        <property name="parameter-expression" short-description="parameter-expression" type="String" value="data/Projects/NTRK/Data/Results/Output/CMAWK on enhancers output/Feedback Controlled Master Regulators"/>
+        <property name="parameter-expression" short-description="parameter-expression" type="String" value="$Input gene set/parent$/Results/Output/CMAWK on enhancers output/Feedback Controlled Master Regulators"/>
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <compartment>
@@ -918,7 +918,7 @@
         <property name="parameter.species" short-description="parameter.species" type="String" value="Human (Homo sapiens)"/>
       </compartment>
       <node height="0" id="GO (biological process)" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="8244" y="1805">
-        <property name="parameter-expression" short-description="parameter-expression" type="String" value="data/Projects/NTRK/Data/Results/Output/Functional classification of Input genes table/GO (biological process)"/>
+        <property name="parameter-expression" short-description="parameter-expression" type="String" value="$Input gene set/parent$/Results/Output/Functional classification of Input genes table/GO (biological process)"/>
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="Histogram" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="8280" y="1126">
@@ -926,25 +926,25 @@
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="HumanPSD(TM) disease (20212)" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="7637" y="1353">
-        <property name="parameter-expression" short-description="parameter-expression" type="String" value="data/Projects/NTRK/Data/Results/Output/Functional classification of Input genes table/HumanPSD(TM) disease (2021.2)"/>
+        <property name="parameter-expression" short-description="parameter-expression" type="String" value="$Input gene set/parent$/Results/Output/Functional classification of Input genes table/HumanPSD(TM) disease (2021.2)"/>
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="HumanPSD(TM) disease (20212) top15" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="8200" y="1491">
-        <property name="parameter-expression" short-description="parameter-expression" type="String" value="data/Projects/NTRK/Data/Results/Output/Functional classification of Input genes table/HumanPSD(TM) disease (2021.2) top15"/>
+        <property name="parameter-expression" short-description="parameter-expression" type="String" value="$Input gene set/parent$/Results/Output/Functional classification of Input genes table/HumanPSD(TM) disease (2021.2) top15"/>
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
-      <node height="0" id="Input genes table" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="232" y="865">
-        <property name="ge-report-table-description" short-description="ge-report-table-description" type="String" value="input"/>
-        <property name="parameter-expression" short-description="parameter-expression" type="String" value=""/>
-        <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
-      </node>
-      <node height="0" id="Input your gene list" isTitleHidden="false" kernel="stub/" kernel_type="analysis-parameter" title="" width="0" x="2" y="659">
+      <node height="0" id="Input gene set" isTitleHidden="false" kernel="stub/" kernel_type="analysis-parameter" title="" width="0" x="19" y="586">
         <property name="default-value" short-description="default-value" type="String" value="$project$"/>
-        <property name="parameter-description" short-description="parameter-description" type="String" value="A table with gene list (Ensembl, Gene Symbols, UniProt, Entrez, Affymetrix)"/>
+        <property name="parameter-description" short-description="parameter-description" type="String" value="Input your table with gene list (Ensembl, Gene symbol, Uniprot, Affymetrix, Entretz...)"/>
         <property name="parameter-element-type" short-description="parameter-element-type" type="String" value="Table"/>
         <property name="parameter-rank" short-description="parameter-rank" type="String" value="1"/>
         <property name="parameter-reference-type" short-description="parameter-reference-type" type="String" value="Unspecified"/>
         <property name="parameter-role" short-description="parameter-role" type="String" value="Input"/>
+        <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
+      </node>
+      <node height="0" id="Input genes table" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="0" y="862">
+        <property name="ge-report-table-description" short-description="ge-report-table-description" type="String" value="input"/>
+        <property name="parameter-expression" short-description="parameter-expression" type="String" value="$Input gene set$_Ensembl"/>
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <compartment>
@@ -1138,7 +1138,7 @@
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="No genes subtracted" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="415" y="1724">
-        <property name="parameter-expression" short-description="parameter-expression" type="String" value="data/Projects/NTRK/Data/Results/Output/No genes subtracted"/>
+        <property name="parameter-expression" short-description="parameter-expression" type="String" value="$Input gene set/parent$/Results/Output/No genes subtracted"/>
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="No sites optimized" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="1687" y="645">
@@ -1154,7 +1154,7 @@
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="PCReport" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="8840" y="509">
-        <property name="parameter-expression" short-description="parameter-expression" type="String" value="data/Projects/NTRK/Data/Results/Output/PCReport.html"/>
+        <property name="parameter-expression" short-description="parameter-expression" type="String" value="$Input gene set/parent$/Results/Output/PCReport.html"/>
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <compartment>
@@ -1335,11 +1335,11 @@
         <property name="parameter.weightColumn" short-description="parameter.weightColumn" type="String" value="(none)"/>
       </compartment>
       <node height="0" id="Regulatory regions" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="859" y="733">
-        <property name="parameter-expression" short-description="parameter-expression" type="String" value="data/Projects/NTRK/Data/Results/Output/Regulatory regions"/>
+        <property name="parameter-expression" short-description="parameter-expression" type="String" value="$Input gene set/parent$/Results/Output/Regulatory regions"/>
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="Regulatory regions (1)" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="850" y="1724">
-        <property name="parameter-expression" short-description="parameter-expression" type="String" value="data/Projects/NTRK/Data/Results/Output/Regulatory regions (1)"/>
+        <property name="parameter-expression" short-description="parameter-expression" type="String" value="$Input gene set/parent$/Results/Output/Regulatory regions (1)"/>
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <compartment>
@@ -1661,43 +1661,43 @@
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="TRANSPATH Pathways (20212)" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="7642" y="1453">
-        <property name="parameter-expression" short-description="parameter-expression" type="String" value="data/Projects/NTRK/Data/Results/Output/Functional classification of Input genes table/TRANSPATH Pathways (2021.2)"/>
+        <property name="parameter-expression" short-description="parameter-expression" type="String" value="$Input gene set/parent$/Results/Output/Functional classification of Input genes table/TRANSPATH Pathways (2021.2)"/>
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="TRANSPATH Pathways (20212) top15" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="8206" y="1591">
-        <property name="parameter-expression" short-description="parameter-expression" type="String" value="data/Projects/NTRK/Data/Results/Output/Functional classification of Input genes table/TRANSPATH Pathways (2021.2) top15"/>
+        <property name="parameter-expression" short-description="parameter-expression" type="String" value="$Input gene set/parent$/Results/Output/Functional classification of Input genes table/TRANSPATH Pathways (2021.2) top15"/>
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="Targets PASS" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="6284" y="218">
-        <property name="parameter-expression" short-description="parameter-expression" type="String" value="data/Projects/NTRK/Data/Results/Output/Targets PASS"/>
+        <property name="parameter-expression" short-description="parameter-expression" type="String" value="$Input gene set/parent$/Results/Output/Targets PASS"/>
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="Targets PASS annotated" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="6680" y="173">
-        <property name="parameter-expression" short-description="parameter-expression" type="String" value="data/Projects/NTRK/Data/Results/Output/Targets PASS annotated"/>
+        <property name="parameter-expression" short-description="parameter-expression" type="String" value="$Input gene set/parent$/Results/Output/Targets PASS annotated"/>
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="Targets PASS annotated (FC)" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="7648" y="228">
-        <property name="parameter-expression" short-description="parameter-expression" type="String" value="data/Projects/NTRK/Data/Results/Output/Targets PASS annotated (FC)"/>
+        <property name="parameter-expression" short-description="parameter-expression" type="String" value="$Input gene set/parent$/Results/Output/Targets PASS annotated (FC)"/>
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="Targets PASS annotated (title)" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="7134" y="144">
-        <property name="parameter-expression" short-description="parameter-expression" type="String" value="data/Projects/NTRK/Data/Results/Output/Targets PASS annotated (title)"/>
+        <property name="parameter-expression" short-description="parameter-expression" type="String" value="$Input gene set/parent$/Results/Output/Targets PASS annotated (title)"/>
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="Targets PSD" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="6287" y="67">
-        <property name="parameter-expression" short-description="parameter-expression" type="String" value="data/Projects/NTRK/Data/Results/Output/Targets PSD"/>
+        <property name="parameter-expression" short-description="parameter-expression" type="String" value="$Input gene set/parent$/Results/Output/Targets PSD"/>
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="Targets PSD annotated" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="6683" y="57">
-        <property name="parameter-expression" short-description="parameter-expression" type="String" value="data/Projects/NTRK/Data/Results/Output/Targets PSD annotated"/>
+        <property name="parameter-expression" short-description="parameter-expression" type="String" value="$Input gene set/parent$/Results/Output/Targets PSD annotated"/>
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="Targets PSD annotated (FC)" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="7651" y="83">
-        <property name="parameter-expression" short-description="parameter-expression" type="String" value="data/Projects/NTRK/Data/Results/Output/Targets PSD annotated (FC)"/>
+        <property name="parameter-expression" short-description="parameter-expression" type="String" value="$Input gene set/parent$/Results/Output/Targets PSD annotated (FC)"/>
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="Targets PSD annotated (title)" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="7137" y="59">
-        <property name="parameter-expression" short-description="parameter-expression" type="String" value="data/Projects/NTRK/Data/Results/Output/Targets PSD annotated (title)"/>
+        <property name="parameter-expression" short-description="parameter-expression" type="String" value="$Input gene set/parent$/Results/Output/Targets PSD annotated (title)"/>
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="Transcription Factors Ensembl" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="8225" y="854">
@@ -1717,7 +1717,7 @@
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="Transpath proteins" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="3096" y="751">
-        <property name="parameter-expression" short-description="parameter-expression" type="String" value="data/Projects/NTRK/Data/Results/Output/Transpath proteins"/>
+        <property name="parameter-expression" short-description="parameter-expression" type="String" value="$Input gene set/parent$/Results/Output/Transpath proteins"/>
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="TreeMap" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="8843" y="1835">
@@ -1748,19 +1748,19 @@
         <property name="parameter.species" short-description="parameter.species" type="String" value="Human (Homo sapiens)"/>
       </compartment>
       <node height="0" id="Unmatched" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="8835" y="1563">
-        <property name="parameter-expression" short-description="parameter-expression" type="String" value="data/Projects/NTRK/Data/Results/Output/Unmatched"/>
+        <property name="parameter-expression" short-description="parameter-expression" type="String" value="$Input gene set/parent$/Results/Output/Unmatched"/>
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="Unmatched (1)" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="8826" y="1767">
-        <property name="parameter-expression" short-description="parameter-expression" type="String" value="data/Projects/NTRK/Data/Results/Output/Unmatched (1)"/>
+        <property name="parameter-expression" short-description="parameter-expression" type="String" value="$Input gene set/parent$/Results/Output/Unmatched (1)"/>
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="Unmatched (2)" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="8826" y="0">
-        <property name="parameter-expression" short-description="parameter-expression" type="String" value="data/Projects/NTRK/Data/Results/Output/Unmatched (2)"/>
+        <property name="parameter-expression" short-description="parameter-expression" type="String" value="$Input gene set/parent$/Results/Output/Unmatched (2)"/>
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="Unmatched (3)" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="8826" y="715">
-        <property name="parameter-expression" short-description="parameter-expression" type="String" value="data/Projects/NTRK/Data/Results/Output/Unmatched (3)"/>
+        <property name="parameter-expression" short-description="parameter-expression" type="String" value="$Input gene set/parent$/Results/Output/Unmatched (3)"/>
         <property name="variable-type" short-description="variable-type" type="String" value="Data element"/>
       </node>
       <node height="0" id="Yes sites optimized" isTitleHidden="false" kernel="stub/" kernel_type="analysis-expression" title="" width="0" x="1685" y="577">
@@ -1817,22 +1817,21 @@
       </node>
     </nodes>
     <edges>
-      <edge edgeID="Input your gene list-&gt;sourceTable" in="Input your gene list" inPort="117;668" kernel="stub/Input your gene list-&gt;sourceTable" kernel_type="directed-edge" out="Convert table_1/sourceTable" outPort="181;666" title="Input your gene list-&gt;sourceTable">
+      <edge edgeID="Input gene set-&gt;sourceTable_1" id="Input gene set-&gt;sourceTable_1" in="Input gene set" inPort="109;595" kernel="stub/Input gene set-&gt;sourceTable" kernel_type="directed-edge" out="Convert table_1/sourceTable" outPort="196;597" title="Input gene set-&gt;sourceTable">
         <path>
-          <segment segmentType="moveTo" x0="117" y0="668"/>
-          <segment segmentType="lineTo" x0="130" y0="668"/>
-          <segment segmentType="lineTo" x0="130" y0="666"/>
-          <segment segmentType="lineTo" x0="181" y0="666"/>
+          <segment segmentType="moveTo" x0="109" y0="595"/>
+          <segment segmentType="lineTo" x0="120" y0="595"/>
+          <segment segmentType="lineTo" x0="120" y0="597"/>
+          <segment segmentType="lineTo" x0="196" y0="597"/>
         </path>
         <property name="analysis-property" short-description="analysis-property" type="String" value="sourceTable"/>
-        <property name="variable" short-description="variable" type="String" value="Input your gene list"/>
+        <property name="variable" short-description="variable" type="String" value="Input gene set"/>
       </edge>
-      <edge edgeID="directed-edge" in="Input genes table" inPort="280;883" kernel="stub/directed-edge" kernel_type="directed-edge" out="Functional classification/sourcePath" outPort="7909;1799" title="directed-edge">
+      <edge edgeID="directed-edge" in="Input genes table" kernel="stub/directed-edge" kernel_type="directed-edge" out="Functional classification/sourcePath" outPort="7909;1799" title="directed-edge">
         <path>
-          <segment segmentType="moveTo" x0="280" y0="883"/>
-          <segment segmentType="lineTo" x0="280" y0="900"/>
-          <segment segmentType="lineTo" x0="380" y0="900"/>
-          <segment segmentType="lineTo" x0="380" y0="1830"/>
+          <segment segmentType="moveTo" x0="0" y0="870"/>
+          <segment segmentType="lineTo" x0="-20" y0="870"/>
+          <segment segmentType="lineTo" x0="-20" y0="1830"/>
           <segment segmentType="lineTo" x0="7880" y0="1830"/>
           <segment segmentType="lineTo" x0="7880" y0="1799"/>
           <segment segmentType="lineTo" x0="7909" y0="1799"/>
@@ -1852,59 +1851,47 @@
         <property name="analysis-property" short-description="analysis-property" type="String" value="outputTable"/>
         <property name="variable" short-description="variable" type="String" value="GO (biological process)"/>
       </edge>
-      <edge edgeID="directed-edge_10" in="Input genes table" inPort="280;883" kernel="stub/directed-edge_10" kernel_type="directed-edge" out="Functional classification(3)/sourcePath" outPort="7367;1293" title="directed-edge_10">
+      <edge edgeID="directed-edge_10" in="Input genes table" inPort="50;880" kernel="stub/directed-edge_10" kernel_type="directed-edge" out="Functional classification(3)/sourcePath" outPort="7367;1293" title="directed-edge_10">
         <path>
-          <segment segmentType="moveTo" x0="280" y0="883"/>
-          <segment segmentType="lineTo" x0="280" y0="1293"/>
+          <segment segmentType="moveTo" x0="50" y0="880"/>
+          <segment segmentType="lineTo" x0="50" y0="1293"/>
           <segment segmentType="lineTo" x0="7367" y0="1293"/>
         </path>
         <property name="analysis-property" short-description="analysis-property" type="String" value="sourcePath"/>
         <property name="variable" short-description="variable" type="String" value="Input genes table"/>
       </edge>
-      <edge edgeID="directed-edge_100" in="Annotate table(4)/outputTablePath" inPort="7083;66" kernel="stub/directed-edge_100" kernel_type="directed-edge" out="Targets PSD annotated (title)" outPort="7137;68" title="directed-edge_100">
-        <path>
-          <segment segmentType="moveTo" x0="7083" y0="66"/>
-          <segment segmentType="lineTo" x0="7096" y0="66"/>
-          <segment segmentType="cubic" x0="7116" y0="66"/>
-          <segment segmentType="lineTo" x0="7104" y0="68"/>
-          <segment segmentType="lineTo" x0="7124" y0="68"/>
-          <segment segmentType="lineTo" x0="7137" y0="68"/>
-        </path>
+      <edge edgeID="directed-edge_100_1" id="directed-edge_100_1" in="Annotate table(4)/outputTablePath" inPort="7083;66" kernel="stub/directed-edge_100" kernel_type="directed-edge" out="Targets PSD annotated (title)" outPort="7137;66" title="directed-edge_100">
         <property name="analysis-property" short-description="analysis-property" type="String" value="outputTablePath"/>
         <property name="variable" short-description="variable" type="String" value="Targets PSD annotated (title)"/>
       </edge>
-      <edge edgeID="directed-edge_101" in="Targets PSD annotated (title)" inPort="7313;68" kernel="stub/directed-edge_101" kernel_type="directed-edge" out="Join two tables(4)/leftGroup:tablePath" outPort="7367;56" title="directed-edge_101">
+      <edge edgeID="directed-edge_101_1" id="directed-edge_101_1" in="Targets PSD annotated (title)" inPort="7313;60" kernel="stub/directed-edge_101" kernel_type="directed-edge" out="Join two tables(4)/leftGroup:tablePath" outPort="7367;56" title="directed-edge_101">
         <path>
-          <segment segmentType="moveTo" x0="7313" y0="68"/>
-          <segment segmentType="lineTo" x0="7326" y0="68"/>
-          <segment segmentType="cubic" x0="7346" y0="68"/>
-          <segment segmentType="lineTo" x0="7334" y0="56"/>
-          <segment segmentType="lineTo" x0="7354" y0="56"/>
+          <segment segmentType="moveTo" x0="7313" y0="60"/>
+          <segment segmentType="lineTo" x0="7330" y0="60"/>
+          <segment segmentType="lineTo" x0="7330" y0="56"/>
           <segment segmentType="lineTo" x0="7367" y0="56"/>
         </path>
         <property name="analysis-property" short-description="analysis-property" type="String" value="leftGroup/tablePath"/>
         <property name="variable" short-description="variable" type="String" value="Targets PSD annotated (title)"/>
       </edge>
-      <edge edgeID="directed-edge_102" in="Column subset" inPort="7276;218" kernel="stub/directed-edge_102" kernel_type="directed-edge" out="Join two tables(4)/rightGroup:tablePath" outPort="7367;86" title="directed-edge_102">
+      <edge edgeID="directed-edge_102_1" id="directed-edge_102_1" in="Column subset" inPort="7220;212" kernel="stub/directed-edge_102" kernel_type="directed-edge" out="Join two tables(4)/rightGroup:tablePath" outPort="7367;86" title="directed-edge_102">
         <path>
-          <segment segmentType="moveTo" x0="7276" y0="218"/>
-          <segment segmentType="lineTo" x0="7298" y0="218"/>
-          <segment segmentType="cubic" x0="7332" y0="218"/>
-          <segment segmentType="lineTo" x0="7311" y0="86"/>
-          <segment segmentType="lineTo" x0="7345" y0="86"/>
+          <segment segmentType="moveTo" x0="7220" y0="212"/>
+          <segment segmentType="lineTo" x0="7220" y0="190"/>
+          <segment segmentType="lineTo" x0="7110" y0="190"/>
+          <segment segmentType="lineTo" x0="7110" y0="90"/>
+          <segment segmentType="lineTo" x0="7340" y0="90"/>
+          <segment segmentType="lineTo" x0="7340" y0="86"/>
           <segment segmentType="lineTo" x0="7367" y0="86"/>
         </path>
         <property name="analysis-property" short-description="analysis-property" type="String" value="rightGroup/tablePath"/>
         <property name="variable" short-description="variable" type="String" value="Column subset"/>
       </edge>
-      <edge edgeID="directed-edge_103" in="Join two tables(4)/output" inPort="7567;71" kernel="stub/directed-edge_103" kernel_type="directed-edge" out="Targets PSD annotated (FC)" outPort="7651;92" title="directed-edge_103">
+      <edge edgeID="directed-edge_103_1" id="directed-edge_103_1" in="Join two tables(4)/output" inPort="7567;71" kernel="stub/directed-edge_103" kernel_type="directed-edge" out="Targets PSD annotated (FC)" outPort="7730;83" title="directed-edge_103">
         <path>
           <segment segmentType="moveTo" x0="7567" y0="71"/>
-          <segment segmentType="lineTo" x0="7588" y0="71"/>
-          <segment segmentType="cubic" x0="7619" y0="71"/>
-          <segment segmentType="lineTo" x0="7599" y0="92"/>
-          <segment segmentType="lineTo" x0="7630" y0="92"/>
-          <segment segmentType="lineTo" x0="7651" y0="92"/>
+          <segment segmentType="lineTo" x0="7730" y0="71"/>
+          <segment segmentType="lineTo" x0="7730" y0="83"/>
         </path>
         <property name="analysis-property" short-description="analysis-property" type="String" value="output"/>
         <property name="variable" short-description="variable" type="String" value="Targets PSD annotated (FC)"/>
@@ -1949,15 +1936,7 @@
         <property name="analysis-property" short-description="analysis-property" type="String" value="outputPath"/>
         <property name="variable" short-description="variable" type="String" value="Drugs PSD repurposed"/>
       </edge>
-      <edge edgeID="directed-edge_108" in="Feedback Controlled Master Regulators" inPort="5982;210" kernel="stub/directed-edge_108" kernel_type="directed-edge" out="Pharmaceutical Compounds analysis/genesPath" outPort="6033;212" title="directed-edge_108">
-        <path>
-          <segment segmentType="moveTo" x0="5982" y0="210"/>
-          <segment segmentType="lineTo" x0="5994" y0="210"/>
-          <segment segmentType="cubic" x0="6013" y0="210"/>
-          <segment segmentType="lineTo" x0="6002" y0="212"/>
-          <segment segmentType="lineTo" x0="6021" y0="212"/>
-          <segment segmentType="lineTo" x0="6033" y0="212"/>
-        </path>
+      <edge edgeID="directed-edge_108_1" id="directed-edge_108_1" in="Feedback Controlled Master Regulators" inPort="5982;212" kernel="stub/directed-edge_108" kernel_type="directed-edge" out="Pharmaceutical Compounds analysis/genesPath" outPort="6033;212" title="directed-edge_108">
         <property name="analysis-property" short-description="analysis-property" type="String" value="genesPath"/>
         <property name="variable" short-description="variable" type="String" value="Feedback Controlled Master Regulators"/>
       </edge>
@@ -1989,90 +1968,63 @@
         <property name="analysis-property" short-description="analysis-property" type="String" value="outputTable"/>
         <property name="variable" short-description="variable" type="String" value="HumanPSD(TM) disease (20212)"/>
       </edge>
-      <edge edgeID="directed-edge_110" in="Pharmaceutical Compounds analysis/targTablePath" inPort="6233;227" kernel="stub/directed-edge_110" kernel_type="directed-edge" out="Targets PASS" outPort="6284;227" title="directed-edge_110">
+      <edge edgeID="directed-edge_110_1" id="directed-edge_110_1" in="Pharmaceutical Compounds analysis/targTablePath" inPort="6233;227" kernel="stub/directed-edge_110" kernel_type="directed-edge" out="Targets PASS" outPort="6284;227" title="directed-edge_110">
         <property name="analysis-property" short-description="analysis-property" type="String" value="targTablePath"/>
         <property name="variable" short-description="variable" type="String" value="Targets PASS"/>
       </edge>
-      <edge edgeID="directed-edge_111" in="Targets PASS" inPort="6378;222" kernel="stub/directed-edge_111" kernel_type="directed-edge" out="Annotate table(5)/inputTablePath" outPort="6429;185" title="directed-edge_111">
+      <edge edgeID="directed-edge_111_1" id="directed-edge_111_1" in="Targets PASS" inPort="6330;218" kernel="stub/directed-edge_111" kernel_type="directed-edge" out="Annotate table(5)/inputTablePath" outPort="6429;185" title="directed-edge_111">
         <path>
-          <segment segmentType="moveTo" x0="6378" y0="222"/>
-          <segment segmentType="lineTo" x0="6390" y0="222"/>
-          <segment segmentType="cubic" x0="6409" y0="222"/>
-          <segment segmentType="lineTo" x0="6398" y0="185"/>
-          <segment segmentType="lineTo" x0="6417" y0="185"/>
+          <segment segmentType="moveTo" x0="6330" y0="218"/>
+          <segment segmentType="lineTo" x0="6330" y0="185"/>
           <segment segmentType="lineTo" x0="6429" y0="185"/>
         </path>
         <property name="analysis-property" short-description="analysis-property" type="String" value="inputTablePath"/>
         <property name="variable" short-description="variable" type="String" value="Targets PASS"/>
       </edge>
-      <edge edgeID="directed-edge_112" in="Annotate table(5)/outputTablePath" inPort="6629;185" kernel="stub/directed-edge_112" kernel_type="directed-edge" out="Targets PASS annotated" outPort="6680;182" title="directed-edge_112">
-        <path>
-          <segment segmentType="moveTo" x0="6629" y0="185"/>
-          <segment segmentType="lineTo" x0="6641" y0="185"/>
-          <segment segmentType="cubic" x0="6660" y0="185"/>
-          <segment segmentType="lineTo" x0="6649" y0="182"/>
-          <segment segmentType="lineTo" x0="6668" y0="182"/>
-          <segment segmentType="lineTo" x0="6680" y0="182"/>
-        </path>
+      <edge edgeID="directed-edge_112_1" id="directed-edge_112_1" in="Annotate table(5)/outputTablePath" inPort="6629;185" kernel="stub/directed-edge_112" kernel_type="directed-edge" out="Targets PASS annotated" outPort="6680;185" title="directed-edge_112">
         <property name="analysis-property" short-description="analysis-property" type="String" value="outputTablePath"/>
         <property name="variable" short-description="variable" type="String" value="Targets PASS annotated"/>
       </edge>
-      <edge edgeID="directed-edge_113" in="Targets PASS annotated" inPort="6832;182" kernel="stub/directed-edge_113" kernel_type="directed-edge" out="Annotate table(6)/inputTablePath" outPort="6883;180" title="directed-edge_113">
-        <path>
-          <segment segmentType="moveTo" x0="6832" y0="182"/>
-          <segment segmentType="lineTo" x0="6844" y0="182"/>
-          <segment segmentType="cubic" x0="6863" y0="182"/>
-          <segment segmentType="lineTo" x0="6852" y0="180"/>
-          <segment segmentType="lineTo" x0="6871" y0="180"/>
-          <segment segmentType="lineTo" x0="6883" y0="180"/>
-        </path>
+      <edge edgeID="directed-edge_113_1" id="directed-edge_113_1" in="Targets PASS annotated" inPort="6832;180" kernel="stub/directed-edge_113" kernel_type="directed-edge" out="Annotate table(6)/inputTablePath" outPort="6883;180" title="directed-edge_113">
         <property name="analysis-property" short-description="analysis-property" type="String" value="inputTablePath"/>
         <property name="variable" short-description="variable" type="String" value="Targets PASS annotated"/>
       </edge>
-      <edge edgeID="directed-edge_114" in="Annotate table(6)/outputTablePath" inPort="7083;180" kernel="stub/directed-edge_114" kernel_type="directed-edge" out="Targets PASS annotated (title)" outPort="7134;153" title="directed-edge_114">
+      <edge edgeID="directed-edge_114_1" id="directed-edge_114_1" in="Annotate table(6)/outputTablePath" inPort="7083;180" kernel="stub/directed-edge_114" kernel_type="directed-edge" out="Targets PASS annotated (title)" outPort="7220;162" title="directed-edge_114">
         <path>
           <segment segmentType="moveTo" x0="7083" y0="180"/>
-          <segment segmentType="lineTo" x0="7095" y0="180"/>
-          <segment segmentType="cubic" x0="7114" y0="180"/>
-          <segment segmentType="lineTo" x0="7103" y0="153"/>
-          <segment segmentType="lineTo" x0="7122" y0="153"/>
-          <segment segmentType="lineTo" x0="7134" y0="153"/>
+          <segment segmentType="lineTo" x0="7220" y0="180"/>
+          <segment segmentType="lineTo" x0="7220" y0="162"/>
         </path>
         <property name="analysis-property" short-description="analysis-property" type="String" value="outputTablePath"/>
         <property name="variable" short-description="variable" type="String" value="Targets PASS annotated (title)"/>
       </edge>
-      <edge edgeID="directed-edge_115" in="Targets PASS annotated (title)" inPort="7316;153" kernel="stub/directed-edge_115" kernel_type="directed-edge" out="Join two tables(5)/leftGroup:tablePath" outPort="7367;206" title="directed-edge_115">
+      <edge edgeID="directed-edge_115_1" id="directed-edge_115_1" in="Targets PASS annotated (title)" inPort="7316;150" kernel="stub/directed-edge_115" kernel_type="directed-edge" out="Join two tables(5)/leftGroup:tablePath" outPort="7367;206" title="directed-edge_115">
         <path>
-          <segment segmentType="moveTo" x0="7316" y0="153"/>
-          <segment segmentType="lineTo" x0="7328" y0="153"/>
-          <segment segmentType="cubic" x0="7347" y0="153"/>
-          <segment segmentType="lineTo" x0="7336" y0="206"/>
-          <segment segmentType="lineTo" x0="7355" y0="206"/>
+          <segment segmentType="moveTo" x0="7316" y0="150"/>
+          <segment segmentType="lineTo" x0="7330" y0="150"/>
+          <segment segmentType="lineTo" x0="7330" y0="206"/>
           <segment segmentType="lineTo" x0="7367" y0="206"/>
         </path>
         <property name="analysis-property" short-description="analysis-property" type="String" value="leftGroup/tablePath"/>
         <property name="variable" short-description="variable" type="String" value="Targets PASS annotated (title)"/>
       </edge>
-      <edge edgeID="directed-edge_116" in="Column subset" inPort="7276;224" kernel="stub/directed-edge_116" kernel_type="directed-edge" out="Join two tables(5)/rightGroup:tablePath" outPort="7367;236" title="directed-edge_116">
+      <edge edgeID="directed-edge_116_1" id="directed-edge_116_1" in="Column subset" inPort="7276;220" kernel="stub/directed-edge_116" kernel_type="directed-edge" out="Join two tables(5)/rightGroup:tablePath" outPort="7367;236" title="directed-edge_116">
         <path>
-          <segment segmentType="moveTo" x0="7276" y0="224"/>
-          <segment segmentType="lineTo" x0="7298" y0="224"/>
-          <segment segmentType="cubic" x0="7332" y0="224"/>
-          <segment segmentType="lineTo" x0="7311" y0="236"/>
-          <segment segmentType="lineTo" x0="7345" y0="236"/>
+          <segment segmentType="moveTo" x0="7276" y0="220"/>
+          <segment segmentType="lineTo" x0="7290" y0="220"/>
+          <segment segmentType="lineTo" x0="7290" y0="236"/>
           <segment segmentType="lineTo" x0="7367" y0="236"/>
         </path>
         <property name="analysis-property" short-description="analysis-property" type="String" value="rightGroup/tablePath"/>
         <property name="variable" short-description="variable" type="String" value="Column subset"/>
       </edge>
-      <edge edgeID="directed-edge_117" in="Join two tables(5)/output" inPort="7567;221" kernel="stub/directed-edge_117" kernel_type="directed-edge" out="Targets PASS annotated (FC)" outPort="7648;237" title="directed-edge_117">
+      <edge edgeID="directed-edge_117_1" id="directed-edge_117_1" in="Join two tables(5)/output" inPort="7567;221" kernel="stub/directed-edge_117" kernel_type="directed-edge" out="Targets PASS annotated (FC)" outPort="7730;228" title="directed-edge_117">
         <path>
           <segment segmentType="moveTo" x0="7567" y0="221"/>
-          <segment segmentType="lineTo" x0="7587" y0="221"/>
-          <segment segmentType="cubic" x0="7617" y0="221"/>
-          <segment segmentType="lineTo" x0="7598" y0="237"/>
-          <segment segmentType="lineTo" x0="7628" y0="237"/>
-          <segment segmentType="lineTo" x0="7648" y0="237"/>
+          <segment segmentType="lineTo" x0="7580" y0="221"/>
+          <segment segmentType="lineTo" x0="7580" y0="200"/>
+          <segment segmentType="lineTo" x0="7730" y0="200"/>
+          <segment segmentType="lineTo" x0="7730" y0="228"/>
         </path>
         <property name="analysis-property" short-description="analysis-property" type="String" value="output"/>
         <property name="variable" short-description="variable" type="String" value="Targets PASS annotated (FC)"/>
@@ -2091,23 +2043,15 @@
           <segment segmentType="lineTo" x0="8528" y0="549"/>
         </path>
       </edge>
-      <edge edgeID="directed-edge_119" in="Targets PASS" inPort="6378;226" kernel="stub/directed-edge_119" kernel_type="directed-edge" out="analysis-script_2" outPort="8528;423" title="directed-edge_119">
+      <edge edgeID="directed-edge_119_1" id="directed-edge_119_1" in="Targets PASS" inPort="6330;236" kernel="stub/directed-edge_119" kernel_type="directed-edge" out="analysis-script_2" outPort="8620;360" title="directed-edge_119">
         <path>
-          <segment segmentType="moveTo" x0="6378" y0="226"/>
-          <segment segmentType="lineTo" x0="6390" y0="226"/>
-          <segment segmentType="cubic" x0="6408" y0="226"/>
-          <segment segmentType="lineTo" x0="6409" y0="242"/>
-          <segment segmentType="lineTo" x0="6427" y0="242"/>
-          <segment segmentType="lineTo" x0="7081" y0="242"/>
-          <segment segmentType="cubic" x0="7106" y0="242"/>
-          <segment segmentType="lineTo" x0="7107" y0="316"/>
-          <segment segmentType="lineTo" x0="7132" y0="316"/>
-          <segment segmentType="lineTo" x0="8474" y0="316"/>
-          <segment segmentType="cubic" x0="8501" y0="316"/>
-          <segment segmentType="lineTo" x0="8489" y0="423"/>
-          <segment segmentType="lineTo" x0="8516" y0="423"/>
-          <segment segmentType="lineTo" x0="8528" y0="423"/>
+          <segment segmentType="moveTo" x0="6330" y0="236"/>
+          <segment segmentType="lineTo" x0="6330" y0="350"/>
+          <segment segmentType="lineTo" x0="8620" y0="350"/>
+          <segment segmentType="lineTo" x0="8620" y0="360"/>
         </path>
+        <property name="analysis-property" short-description="analysis-property" type="String" value=""/>
+        <property name="variable" short-description="variable" type="String" value="Targets PASS"/>
       </edge>
       <edge edgeID="directed-edge_12" in="Select top rows(2)/bottomTable" inPort="8109;1431" kernel="stub/directed-edge_12" kernel_type="directed-edge" out="HumanPSD(TM) disease (20212) top15" outPort="8200;1500" title="directed-edge_12">
         <path>
@@ -2272,26 +2216,21 @@
         <property name="analysis-property" short-description="analysis-property" type="String" value="knResultPath"/>
         <property name="variable" short-description="variable" type="String" value="All keynodes filtered"/>
       </edge>
-      <edge edgeID="directed-edge_132" in="Targets PSD annotated (FC)" inPort="7824;92" kernel="stub/directed-edge_132" kernel_type="directed-edge" out="Select keynodes with top targets/topTargetsPaths" outPort="7909;269" title="directed-edge_132">
+      <edge edgeID="directed-edge_132_1" id="directed-edge_132_1" in="Targets PSD annotated (FC)" inPort="7824;90" kernel="stub/directed-edge_132" kernel_type="directed-edge" out="Select keynodes with top targets/topTargetsPaths" outPort="7909;269" title="directed-edge_132">
         <path>
-          <segment segmentType="moveTo" x0="7824" y0="92"/>
-          <segment segmentType="lineTo" x0="7845" y0="92"/>
-          <segment segmentType="cubic" x0="7877" y0="92"/>
-          <segment segmentType="lineTo" x0="7856" y0="269"/>
-          <segment segmentType="lineTo" x0="7888" y0="269"/>
+          <segment segmentType="moveTo" x0="7824" y0="90"/>
+          <segment segmentType="lineTo" x0="7840" y0="90"/>
+          <segment segmentType="lineTo" x0="7840" y0="269"/>
           <segment segmentType="lineTo" x0="7909" y0="269"/>
         </path>
         <property name="analysis-property" short-description="analysis-property" type="String" value="topTargetsPaths"/>
         <property name="variable" short-description="variable" type="String" value="Targets PSD annotated (FC)"/>
       </edge>
-      <edge edgeID="directed-edge_133" in="Targets PASS annotated (FC)" inPort="7827;237" kernel="stub/directed-edge_133" kernel_type="directed-edge" out="Select keynodes with top targets/topTargetsPaths" outPort="7909;269" title="directed-edge_133">
+      <edge edgeID="directed-edge_133_1" id="directed-edge_133_1" in="Targets PASS annotated (FC)" inPort="7730;246" kernel="stub/directed-edge_133" kernel_type="directed-edge" out="Select keynodes with top targets/topTargetsPaths" outPort="7909;289" title="directed-edge_133">
         <path>
-          <segment segmentType="moveTo" x0="7827" y0="237"/>
-          <segment segmentType="lineTo" x0="7847" y0="237"/>
-          <segment segmentType="cubic" x0="7878" y0="237"/>
-          <segment segmentType="lineTo" x0="7858" y0="269"/>
-          <segment segmentType="lineTo" x0="7889" y0="269"/>
-          <segment segmentType="lineTo" x0="7909" y0="269"/>
+          <segment segmentType="moveTo" x0="7730" y0="246"/>
+          <segment segmentType="lineTo" x0="7730" y0="289"/>
+          <segment segmentType="lineTo" x0="7909" y0="289"/>
         </path>
         <property name="analysis-property" short-description="analysis-property" type="String" value="topTargetsPaths"/>
         <property name="variable" short-description="variable" type="String" value="Targets PASS annotated (FC)"/>
@@ -2348,25 +2287,22 @@
         <property name="analysis-property" short-description="analysis-property" type="String" value="knResultPath"/>
         <property name="variable" short-description="variable" type="String" value="Key Nodes (transpath proteins)"/>
       </edge>
-      <edge edgeID="directed-edge_138" in="Targets PSD" inPort="6375;79" kernel="stub/directed-edge_138" kernel_type="directed-edge" out="Select keynodes with top targets(2)/topTargetsPaths" outPort="6429;319" title="directed-edge_138">
+      <edge edgeID="directed-edge_138_1" id="directed-edge_138_1" in="Targets PSD" inPort="6330;67" kernel="stub/directed-edge_138" kernel_type="directed-edge" out="Select keynodes with top targets(2)/topTargetsPaths" outPort="6429;319" title="directed-edge_138">
         <path>
-          <segment segmentType="moveTo" x0="6375" y0="79"/>
-          <segment segmentType="lineTo" x0="6388" y0="79"/>
-          <segment segmentType="cubic" x0="6408" y0="79"/>
-          <segment segmentType="lineTo" x0="6396" y0="319"/>
-          <segment segmentType="lineTo" x0="6416" y0="319"/>
+          <segment segmentType="moveTo" x0="6330" y0="67"/>
+          <segment segmentType="lineTo" x0="6330" y0="40"/>
+          <segment segmentType="lineTo" x0="6390" y0="40"/>
+          <segment segmentType="lineTo" x0="6390" y0="319"/>
           <segment segmentType="lineTo" x0="6429" y0="319"/>
         </path>
         <property name="analysis-property" short-description="analysis-property" type="String" value="topTargetsPaths"/>
         <property name="variable" short-description="variable" type="String" value="Targets PSD"/>
       </edge>
-      <edge edgeID="directed-edge_139" in="Targets PASS" inPort="6378;230" kernel="stub/directed-edge_139" kernel_type="directed-edge" out="Select keynodes with top targets(2)/topTargetsPaths" outPort="6429;319" title="directed-edge_139">
+      <edge edgeID="directed-edge_139_1" id="directed-edge_139_1" in="Targets PASS" inPort="6378;220" kernel="stub/directed-edge_139" kernel_type="directed-edge" out="Select keynodes with top targets(2)/topTargetsPaths" outPort="6429;319" title="directed-edge_139">
         <path>
-          <segment segmentType="moveTo" x0="6378" y0="230"/>
-          <segment segmentType="lineTo" x0="6390" y0="230"/>
-          <segment segmentType="cubic" x0="6409" y0="230"/>
-          <segment segmentType="lineTo" x0="6398" y0="319"/>
-          <segment segmentType="lineTo" x0="6417" y0="319"/>
+          <segment segmentType="moveTo" x0="6378" y0="220"/>
+          <segment segmentType="lineTo" x0="6400" y0="220"/>
+          <segment segmentType="lineTo" x0="6400" y0="319"/>
           <segment segmentType="lineTo" x0="6429" y0="319"/>
         </path>
         <property name="analysis-property" short-description="analysis-property" type="String" value="topTargetsPaths"/>
@@ -2763,10 +2699,13 @@
         </path>
       </edge>
       <edge edgeID="directed-edge_164" in="analysis-script_3" inPort="8728;899" kernel="stub/directed-edge_164" kernel_type="directed-edge" out="CMAWKReport" outPort="8826;899" title="directed-edge_164"/>
-      <edge edgeID="directed-edge_17" in="Input genes table" inPort="232;870" kernel="stub/directed-edge_17" kernel_type="directed-edge" out="Join two tables/rightGroup:tablePath" outPort="164;1748" title="directed-edge_17">
+      <edge edgeID="directed-edge_17" in="Input genes table" inPort="50;862" kernel="stub/directed-edge_17" kernel_type="directed-edge" out="Join two tables/rightGroup:tablePath" outPort="164;1748" title="directed-edge_17">
         <path>
-          <segment segmentType="moveTo" x0="232" y0="870"/>
-          <segment segmentType="lineTo" x0="140" y0="870"/>
+          <segment segmentType="moveTo" x0="50" y0="862"/>
+          <segment segmentType="lineTo" x0="50" y0="840"/>
+          <segment segmentType="lineTo" x0="-30" y0="840"/>
+          <segment segmentType="lineTo" x0="-30" y0="1760"/>
+          <segment segmentType="lineTo" x0="140" y0="1760"/>
           <segment segmentType="lineTo" x0="140" y0="1748"/>
           <segment segmentType="lineTo" x0="164" y0="1748"/>
         </path>
@@ -2777,10 +2716,10 @@
         <property name="analysis-property" short-description="analysis-property" type="String" value="output"/>
         <property name="variable" short-description="variable" type="String" value="No genes subtracted"/>
       </edge>
-      <edge edgeID="directed-edge_19" in="Input genes table" inPort="280;865" kernel="stub/directed-edge_19" kernel_type="directed-edge" out="Find regulatory regions/inputGenes" outPort="599;713" title="directed-edge_19">
+      <edge edgeID="directed-edge_19" in="Input genes table" inPort="50;862" kernel="stub/directed-edge_19" kernel_type="directed-edge" out="Find regulatory regions/inputGenes" outPort="599;713" title="directed-edge_19">
         <path>
-          <segment segmentType="moveTo" x0="280" y0="865"/>
-          <segment segmentType="lineTo" x0="280" y0="713"/>
+          <segment segmentType="moveTo" x0="50" y0="862"/>
+          <segment segmentType="lineTo" x0="50" y0="713"/>
           <segment segmentType="lineTo" x0="599" y0="713"/>
         </path>
         <property name="analysis-property" short-description="analysis-property" type="String" value="inputGenes"/>
@@ -2810,15 +2749,7 @@
         <property name="analysis-property" short-description="analysis-property" type="String" value="cageDatabase"/>
         <property name="variable" short-description="variable" type="String" value="Fantom database"/>
       </edge>
-      <edge edgeID="directed-edge_21" in="Find regulatory regions/outputPath" inPort="799;743" kernel="stub/directed-edge_21" kernel_type="directed-edge" out="Regulatory regions" outPort="859;742" title="directed-edge_21">
-        <path>
-          <segment segmentType="moveTo" x0="799" y0="743"/>
-          <segment segmentType="lineTo" x0="814" y0="743"/>
-          <segment segmentType="cubic" x0="836" y0="743"/>
-          <segment segmentType="lineTo" x0="822" y0="742"/>
-          <segment segmentType="lineTo" x0="844" y0="742"/>
-          <segment segmentType="lineTo" x0="859" y0="742"/>
-        </path>
+      <edge edgeID="directed-edge_21_1" id="directed-edge_21_1" in="Find regulatory regions/outputPath" inPort="799;743" kernel="stub/directed-edge_21" kernel_type="directed-edge" out="Regulatory regions" outPort="859;743" title="directed-edge_21">
         <property name="analysis-property" short-description="analysis-property" type="String" value="outputPath"/>
         <property name="variable" short-description="variable" type="String" value="Regulatory regions"/>
       </edge>
@@ -2850,9 +2781,9 @@
         <property name="analysis-property" short-description="analysis-property" type="String" value="outputPath"/>
         <property name="variable" short-description="variable" type="String" value="Regulatory regions (1)"/>
       </edge>
-      <edge edgeID="directed-edge_25" in="Input genes table" inPort="345;870" kernel="stub/directed-edge_25" kernel_type="directed-edge" out="Convert table/sourceTable" outPort="2842;767" title="directed-edge_25">
+      <edge edgeID="directed-edge_25" in="Input genes table" inPort="113;870" kernel="stub/directed-edge_25" kernel_type="directed-edge" out="Convert table/sourceTable" outPort="2842;767" title="directed-edge_25">
         <path>
-          <segment segmentType="moveTo" x0="345" y0="870"/>
+          <segment segmentType="moveTo" x0="113" y0="870"/>
           <segment segmentType="lineTo" x0="2820" y0="870"/>
           <segment segmentType="lineTo" x0="2820" y0="767"/>
           <segment segmentType="lineTo" x0="2842" y0="767"/>
@@ -2912,7 +2843,7 @@
         <property name="analysis-property" short-description="analysis-property" type="String" value="unmatchedTable"/>
         <property name="variable" short-description="variable" type="String" value="Unmatched"/>
       </edge>
-      <edge edgeID="directed-edge_28" in="Regulatory regions" inPort="981;742" kernel="stub/directed-edge_28" kernel_type="directed-edge" out="Site search on track/trackPath" outPort="1041;742" title="directed-edge_28">
+      <edge edgeID="directed-edge_28_1" id="directed-edge_28_1" in="Regulatory regions" inPort="981;742" kernel="stub/directed-edge_28" kernel_type="directed-edge" out="Site search on track/trackPath" outPort="1041;742" title="directed-edge_28">
         <property name="analysis-property" short-description="analysis-property" type="String" value="trackPath"/>
         <property name="variable" short-description="variable" type="String" value="Regulatory regions"/>
       </edge>
@@ -3100,11 +3031,10 @@
         <property name="analysis-property" short-description="analysis-property" type="String" value="outProfile"/>
         <property name="variable" short-description="variable" type="String" value="OptimizedProfile"/>
       </edge>
-      <edge edgeID="directed-edge_4" in="Input genes table" inPort="232;870" kernel="stub/directed-edge_4" kernel_type="directed-edge" out="Functional classification(2)/sourcePath" outPort="7367;1393" title="directed-edge_4">
+      <edge edgeID="directed-edge_4" in="Input genes table" inPort="50;880" kernel="stub/directed-edge_4" kernel_type="directed-edge" out="Functional classification(2)/sourcePath" outPort="7367;1393" title="directed-edge_4">
         <path>
-          <segment segmentType="moveTo" x0="232" y0="870"/>
-          <segment segmentType="lineTo" x0="210" y0="870"/>
-          <segment segmentType="lineTo" x0="210" y0="1393"/>
+          <segment segmentType="moveTo" x0="50" y0="880"/>
+          <segment segmentType="lineTo" x0="50" y0="1393"/>
           <segment segmentType="lineTo" x0="7367" y0="1393"/>
         </path>
         <property name="analysis-property" short-description="analysis-property" type="String" value="sourcePath"/>
@@ -3464,11 +3394,11 @@
         <property name="analysis-property" short-description="analysis-property" type="String" value="inputTable"/>
         <property name="variable" short-description="variable" type="String" value="CMA with factors"/>
       </edge>
-      <edge edgeID="directed-edge_65" in="Input genes table" inPort="345;870" kernel="stub/directed-edge_65" kernel_type="directed-edge" out="Super annotate table(2)/annotationTables:[0]:tablePath" outPort="7909;1126" title="directed-edge_65">
+      <edge edgeID="directed-edge_65" in="Input genes table" inPort="113;870" kernel="stub/directed-edge_65" kernel_type="directed-edge" out="Super annotate table(2)/annotationTables:[0]:tablePath" outPort="7909;1126" title="directed-edge_65">
         <path>
-          <segment segmentType="moveTo" x0="345" y0="870"/>
-          <segment segmentType="lineTo" x0="360" y0="870"/>
-          <segment segmentType="lineTo" x0="360" y0="1110"/>
+          <segment segmentType="moveTo" x0="113" y0="870"/>
+          <segment segmentType="lineTo" x0="130" y0="870"/>
+          <segment segmentType="lineTo" x0="130" y0="1110"/>
           <segment segmentType="lineTo" x0="7880" y0="1110"/>
           <segment segmentType="lineTo" x0="7880" y0="1126"/>
           <segment segmentType="lineTo" x0="7909" y0="1126"/>
@@ -3665,11 +3595,11 @@
         <property name="analysis-property" short-description="analysis-property" type="String" value="knTablePath"/>
         <property name="variable" short-description="variable" type="String" value="Keynodes annotated"/>
       </edge>
-      <edge edgeID="directed-edge_82" in="Input genes table" inPort="280;865" kernel="stub/directed-edge_82" kernel_type="directed-edge" out="Calculate keynodes ranks/transcriptomePath" outPort="4526;651" title="directed-edge_82">
+      <edge edgeID="directed-edge_82" in="Input genes table" inPort="50;880" kernel="stub/directed-edge_82" kernel_type="directed-edge" out="Calculate keynodes ranks/transcriptomePath" outPort="4526;651" title="directed-edge_82">
         <path>
-          <segment segmentType="moveTo" x0="280" y0="865"/>
-          <segment segmentType="lineTo" x0="280" y0="840"/>
-          <segment segmentType="lineTo" x0="4500" y0="840"/>
+          <segment segmentType="moveTo" x0="50" y0="880"/>
+          <segment segmentType="lineTo" x0="50" y0="900"/>
+          <segment segmentType="lineTo" x0="4500" y0="900"/>
           <segment segmentType="lineTo" x0="4500" y0="651"/>
           <segment segmentType="lineTo" x0="4526" y0="651"/>
         </path>
@@ -3708,15 +3638,9 @@
         <property name="analysis-property" short-description="analysis-property" type="String" value="outputPath"/>
         <property name="variable" short-description="variable" type="String" value="Key Nodes (transpath proteins)"/>
       </edge>
-      <edge edgeID="directed-edge_85" in="CMAWK on enhancers output" inPort="4715;449" kernel="stub/directed-edge_85" kernel_type="directed-edge" out="Key Nodes (transpath proteins)" outPort="4777;446" title="directed-edge_85">
-        <path>
-          <segment segmentType="moveTo" x0="4715" y0="449"/>
-          <segment segmentType="lineTo" x0="4730" y0="449"/>
-          <segment segmentType="cubic" x0="4753" y0="449"/>
-          <segment segmentType="lineTo" x0="4739" y0="446"/>
-          <segment segmentType="lineTo" x0="4762" y0="446"/>
-          <segment segmentType="lineTo" x0="4777" y0="446"/>
-        </path>
+      <edge edgeID="directed-edge_85_1" id="directed-edge_85_1" in="CMAWK on enhancers output" inPort="4715;440" kernel="stub/directed-edge_85" kernel_type="directed-edge" out="Key Nodes (transpath proteins)" outPort="4777;440" title="directed-edge_85">
+        <property name="analysis-property" short-description="analysis-property" type="String" value=""/>
+        <property name="variable" short-description="variable" type="String" value="CMAWK on enhancers output"/>
       </edge>
       <edge edgeID="directed-edge_86" in="Key Nodes (transpath proteins)" inPort="4966;443" kernel="stub/directed-edge_86" kernel_type="directed-edge" out="Convert table(3)/sourceTable" outPort="5017;210" title="directed-edge_86">
         <path>
@@ -3779,11 +3703,11 @@
         <property name="analysis-property" short-description="analysis-property" type="String" value="outputChart"/>
         <property name="variable" short-description="variable" type="String" value="Pie chart"/>
       </edge>
-      <edge edgeID="directed-edge_90" in="Input genes table" inPort="345;870" kernel="stub/directed-edge_90" kernel_type="directed-edge" out="Join two tables(3)/rightGroup:tablePath" outPort="5495;226" title="directed-edge_90">
+      <edge edgeID="directed-edge_90" in="Input genes table" kernel="stub/directed-edge_90" kernel_type="directed-edge" out="Join two tables(3)/rightGroup:tablePath" outPort="5495;226" title="directed-edge_90">
         <path>
-          <segment segmentType="moveTo" x0="345" y0="870"/>
-          <segment segmentType="lineTo" x0="400" y0="870"/>
-          <segment segmentType="lineTo" x0="400" y0="260"/>
+          <segment segmentType="moveTo" x0="0" y0="870"/>
+          <segment segmentType="lineTo" x0="-20" y0="870"/>
+          <segment segmentType="lineTo" x0="-20" y0="260"/>
           <segment segmentType="lineTo" x0="5470" y0="260"/>
           <segment segmentType="lineTo" x0="5470" y0="226"/>
           <segment segmentType="lineTo" x0="5495" y0="226"/>
@@ -3791,45 +3715,32 @@
         <property name="analysis-property" short-description="analysis-property" type="String" value="rightGroup/tablePath"/>
         <property name="variable" short-description="variable" type="String" value="Input genes table"/>
       </edge>
-      <edge edgeID="directed-edge_91" in="Join two tables(3)/output" inPort="5695;211" kernel="stub/directed-edge_91" kernel_type="directed-edge" out="Feedback Controlled Master Regulators" outPort="5746;211" title="directed-edge_91">
+      <edge edgeID="directed-edge_91_1" id="directed-edge_91_1" in="Join two tables(3)/output" inPort="5695;211" kernel="stub/directed-edge_91" kernel_type="directed-edge" out="Feedback Controlled Master Regulators" outPort="5746;211" title="directed-edge_91">
         <property name="analysis-property" short-description="analysis-property" type="String" value="output"/>
         <property name="variable" short-description="variable" type="String" value="Feedback Controlled Master Regulators"/>
       </edge>
-      <edge edgeID="directed-edge_92" in="Feedback Controlled Master Regulators" inPort="5982;214" kernel="stub/directed-edge_92" kernel_type="directed-edge" out="Select table columns/columnGroup:tablePath" outPort="6883;423" title="directed-edge_92">
+      <edge edgeID="directed-edge_92_1" id="directed-edge_92_1" in="Feedback Controlled Master Regulators" inPort="5860;220" kernel="stub/directed-edge_92" kernel_type="directed-edge" out="Select table columns/columnGroup:tablePath" outPort="6883;423" title="directed-edge_92">
         <path>
-          <segment segmentType="moveTo" x0="5982" y0="214"/>
-          <segment segmentType="lineTo" x0="5994" y0="214"/>
-          <segment segmentType="cubic" x0="6012" y0="214"/>
-          <segment segmentType="lineTo" x0="6013" y0="380"/>
-          <segment segmentType="lineTo" x0="6031" y0="380"/>
-          <segment segmentType="lineTo" x0="6830" y0="380"/>
-          <segment segmentType="cubic" x0="6856" y0="380"/>
-          <segment segmentType="lineTo" x0="6845" y0="423"/>
-          <segment segmentType="lineTo" x0="6871" y0="423"/>
+          <segment segmentType="moveTo" x0="5860" y0="220"/>
+          <segment segmentType="lineTo" x0="5860" y0="423"/>
           <segment segmentType="lineTo" x0="6883" y0="423"/>
         </path>
         <property name="analysis-property" short-description="analysis-property" type="String" value="columnGroup/tablePath"/>
         <property name="variable" short-description="variable" type="String" value="Feedback Controlled Master Regulators"/>
       </edge>
-      <edge edgeID="directed-edge_93" in="Select table columns/output" inPort="7083;423" kernel="stub/directed-edge_93" kernel_type="directed-edge" out="Column subset" outPort="7173;221" title="directed-edge_93">
+      <edge edgeID="directed-edge_93_1" id="directed-edge_93_1" in="Select table columns/output" inPort="7083;423" kernel="stub/directed-edge_93" kernel_type="directed-edge" out="Column subset" outPort="7220;230" title="directed-edge_93">
         <path>
           <segment segmentType="moveTo" x0="7083" y0="423"/>
-          <segment segmentType="lineTo" x0="7105" y0="423"/>
-          <segment segmentType="cubic" x0="7139" y0="423"/>
-          <segment segmentType="lineTo" x0="7117" y0="221"/>
-          <segment segmentType="lineTo" x0="7151" y0="221"/>
-          <segment segmentType="lineTo" x0="7173" y0="221"/>
+          <segment segmentType="lineTo" x0="7220" y0="423"/>
+          <segment segmentType="lineTo" x0="7220" y0="230"/>
         </path>
         <property name="analysis-property" short-description="analysis-property" type="String" value="output"/>
         <property name="variable" short-description="variable" type="String" value="Column subset"/>
       </edge>
-      <edge edgeID="directed-edge_94" in="Feedback Controlled Master Regulators" inPort="5982;206" kernel="stub/directed-edge_94" kernel_type="directed-edge" out="PSD pharmaceutical compounds analysis/inputTablePath" outPort="6033;87" title="directed-edge_94">
+      <edge edgeID="directed-edge_94_1" id="directed-edge_94_1" in="Feedback Controlled Master Regulators" inPort="5860;202" kernel="stub/directed-edge_94" kernel_type="directed-edge" out="PSD pharmaceutical compounds analysis/inputTablePath" outPort="6033;87" title="directed-edge_94">
         <path>
-          <segment segmentType="moveTo" x0="5982" y0="206"/>
-          <segment segmentType="lineTo" x0="5994" y0="206"/>
-          <segment segmentType="cubic" x0="6013" y0="206"/>
-          <segment segmentType="lineTo" x0="6002" y0="87"/>
-          <segment segmentType="lineTo" x0="6021" y0="87"/>
+          <segment segmentType="moveTo" x0="5860" y0="202"/>
+          <segment segmentType="lineTo" x0="5860" y0="87"/>
           <segment segmentType="lineTo" x0="6033" y0="87"/>
         </path>
         <property name="analysis-property" short-description="analysis-property" type="String" value="inputTablePath"/>
@@ -3859,44 +3770,40 @@
         <property name="analysis-property" short-description="analysis-property" type="String" value="structTablePath"/>
         <property name="variable" short-description="variable" type="String" value="Drugs PSD"/>
       </edge>
-      <edge edgeID="directed-edge_96" in="PSD pharmaceutical compounds analysis/targTablePath" inPort="6233;117" kernel="stub/directed-edge_96" kernel_type="directed-edge" out="Targets PSD" outPort="6287;76" title="directed-edge_96">
+      <edge edgeID="directed-edge_96_1" id="directed-edge_96_1" in="PSD pharmaceutical compounds analysis/targTablePath" inPort="6233;117" kernel="stub/directed-edge_96" kernel_type="directed-edge" out="Targets PSD" outPort="6330;85" title="directed-edge_96">
         <path>
           <segment segmentType="moveTo" x0="6233" y0="117"/>
-          <segment segmentType="lineTo" x0="6246" y0="117"/>
-          <segment segmentType="cubic" x0="6266" y0="117"/>
-          <segment segmentType="lineTo" x0="6254" y0="76"/>
-          <segment segmentType="lineTo" x0="6274" y0="76"/>
-          <segment segmentType="lineTo" x0="6287" y0="76"/>
+          <segment segmentType="lineTo" x0="6330" y0="117"/>
+          <segment segmentType="lineTo" x0="6330" y0="85"/>
         </path>
         <property name="analysis-property" short-description="analysis-property" type="String" value="targTablePath"/>
         <property name="variable" short-description="variable" type="String" value="Targets PSD"/>
       </edge>
-      <edge edgeID="directed-edge_97" in="Targets PSD" inPort="6375;73" kernel="stub/directed-edge_97" kernel_type="directed-edge" out="Annotate table(3)/inputTablePath" outPort="6429;66" title="directed-edge_97">
+      <edge edgeID="directed-edge_97_1" id="directed-edge_97_1" in="Targets PSD" inPort="6375;70" kernel="stub/directed-edge_97" kernel_type="directed-edge" out="Annotate table(3)/inputTablePath" outPort="6429;66" title="directed-edge_97">
         <path>
-          <segment segmentType="moveTo" x0="6375" y0="73"/>
-          <segment segmentType="lineTo" x0="6388" y0="73"/>
-          <segment segmentType="cubic" x0="6408" y0="73"/>
-          <segment segmentType="lineTo" x0="6396" y0="66"/>
-          <segment segmentType="lineTo" x0="6416" y0="66"/>
+          <segment segmentType="moveTo" x0="6375" y0="70"/>
+          <segment segmentType="lineTo" x0="6400" y0="70"/>
+          <segment segmentType="lineTo" x0="6400" y0="66"/>
           <segment segmentType="lineTo" x0="6429" y0="66"/>
         </path>
         <property name="analysis-property" short-description="analysis-property" type="String" value="inputTablePath"/>
         <property name="variable" short-description="variable" type="String" value="Targets PSD"/>
       </edge>
-      <edge edgeID="directed-edge_98" in="Annotate table(3)/outputTablePath" inPort="6629;66" kernel="stub/directed-edge_98" kernel_type="directed-edge" out="Targets PSD annotated" outPort="6683;66" title="directed-edge_98">
+      <edge edgeID="directed-edge_98_1" id="directed-edge_98_1" in="Annotate table(3)/outputTablePath" inPort="6629;66" kernel="stub/directed-edge_98" kernel_type="directed-edge" out="Targets PSD annotated" outPort="6683;66" title="directed-edge_98">
         <property name="analysis-property" short-description="analysis-property" type="String" value="outputTablePath"/>
         <property name="variable" short-description="variable" type="String" value="Targets PSD annotated"/>
       </edge>
-      <edge edgeID="directed-edge_99" in="Targets PSD annotated" inPort="6829;66" kernel="stub/directed-edge_99" kernel_type="directed-edge" out="Annotate table(4)/inputTablePath" outPort="6883;66" title="directed-edge_99">
+      <edge edgeID="directed-edge_99_1" id="directed-edge_99_1" in="Targets PSD annotated" inPort="6829;66" kernel="stub/directed-edge_99" kernel_type="directed-edge" out="Annotate table(4)/inputTablePath" outPort="6883;66" title="directed-edge_99">
         <property name="analysis-property" short-description="analysis-property" type="String" value="inputTablePath"/>
         <property name="variable" short-description="variable" type="String" value="Targets PSD annotated"/>
       </edge>
-      <edge edgeID="outputTable-&gt;Input genes table" in="Convert table_1/outputTable" inPort="381;681" kernel="stub/outputTable-&gt;Input genes table" kernel_type="directed-edge" out="Input genes table" outPort="345;880" title="outputTable-&gt;Input genes table">
+      <edge edgeID="outputTable-&gt;Input genes table_1" id="outputTable-&gt;Input genes table_1" in="Convert table_1/outputTable" inPort="396;612" kernel="stub/outputTable-&gt;Input genes table" kernel_type="directed-edge" out="Input genes table" outPort="40;862" title="outputTable-&gt;Input genes table">
         <path>
-          <segment segmentType="moveTo" x0="381" y0="681"/>
-          <segment segmentType="lineTo" x0="410" y0="681"/>
-          <segment segmentType="lineTo" x0="410" y0="880"/>
-          <segment segmentType="lineTo" x0="345" y0="880"/>
+          <segment segmentType="moveTo" x0="396" y0="612"/>
+          <segment segmentType="lineTo" x0="410" y0="612"/>
+          <segment segmentType="lineTo" x0="410" y0="640"/>
+          <segment segmentType="lineTo" x0="40" y0="640"/>
+          <segment segmentType="lineTo" x0="40" y0="862"/>
         </path>
         <property name="analysis-property" short-description="analysis-property" type="String" value="outputTable"/>
         <property name="variable" short-description="variable" type="String" value="Input genes table"/>
